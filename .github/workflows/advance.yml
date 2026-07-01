@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - "spark-demo/Untitled1.ipynb"
+      - "sparks-demo/Untitled1.ipynb"
 
 jobs:
   deploy:
@@ -38,7 +38,7 @@ jobs:
       - name: Upload Notebook
         run: |
           databricks workspace import \
-          spark-demo/Untitled1.ipynb \
+          sparks-demo/Untitled1.ipynb \
           /Shared/spark-demo \
           --language PYTHON \
           --format JUPYTER \
