@@ -1,0 +1,25 @@
+# Spark checkpoints
+**/checkpoints/
+**/checkpoints_v2/
+
+# Jupyter
+**/.ipynb_checkpoints/
+
+# Spark files
+**/spark-warehouse/
+**/metastore_db/
+
+# Kafka generated data
+**/logs/
+**/data/
+
+# Python cache
+**/__pycache__/
+*.pyc
+
+# Airflow generated
+airflow-basic/logs/
+airflow-basic/airflow.db
+
+# Linux trash
+**/.Trash-0/
