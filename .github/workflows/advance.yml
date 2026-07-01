@@ -39,7 +39,7 @@ jobs:
         run: |
           databricks workspace import \
           spark-demo/Untitled1.ipynb \
-          /Shared/advance-spark \
+          /Shared/spark-demo \
           --language PYTHON \
           --format JUPYTER \
           --overwrite
